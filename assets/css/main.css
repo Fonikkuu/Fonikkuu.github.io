@@ -4486,8 +4486,8 @@ input, select, textarea {
 		}
 
 		.swiper {
-        width: 720px;
-		height: 560px;
+        width: 300px;
+		height: 260px;
 		overflow: hidden;
 		position: relative;
 		margin: 20px;

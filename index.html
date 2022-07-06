@@ -11,8 +11,12 @@
 		
 		<title>Invitacion Sara Araguz</title>
 		<meta charset="utf-8" />
+		<meta name="author" content="Edson Araguz"> 
+		<meta name="copyright" content="© 2022 Edson Araguz">
+		<meta name="description" content="Te invito a mi fiesta de XV Años!">
 		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
 		<link rel="stylesheet" href="assets/css/main.css" />
+		<link rel="icon" href="images/crown-32.png">
 		<link
       rel="stylesheet"
       href="https://unpkg.com/swiper/swiper-bundle.min.css"
@@ -246,13 +250,14 @@
 								<img class="crop"  src="images/14.webp" />
 							  </div>
 							  <div class="swiper-slide">
-								<img class="crop"  src="images/15.webp" />
+								<img class="crop"   src="images/15.webp" />
 							  </div>
 							  <div class="swiper-slide">
 								<img class="crop"  src="images/16.webp" />
 							  </div>
 							</div>
 							<div class="swiper-pagination"></div>
+							
 						  </div>
 							<ul class="actions special">
 							
@@ -295,22 +300,21 @@
 		
 		<script>
 			var swiper = new Swiper(".mySwiper", {
-			  effect: "coverflow",
-			  grabCursor: true,
+			  spaceBetween: 30,
 			  centeredSlides: true,
-			  slidesPerView: "auto",
-			  coverflowEffect: {
-				rotate: 50,
-				stretch: 0,
-				depth: 100,
-				modifier: 1,
-				slideShadows: true,
+			  autoplay: {
+				delay: 2500,
+				disableOnInteraction: false,
 			  },
 			  pagination: {
 				el: ".swiper-pagination",
+				clickable: true,
+			  },
+			  navigation: {
+				nextEl: ".swiper-button-next",
+				prevEl: ".swiper-button-prev",
 			  },
 			});
 		  </script>
-		
 	</body>
 </html>
